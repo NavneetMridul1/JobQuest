@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
       <nav className={show ? "navbar show_navbar" : "navbar"}>
         <div className="logo">
-          <img src="/logo.png" alt="logo" />
+          <img src="/vite.webp" alt="logo" />
         </div>
         <div className="links">
           <ul>

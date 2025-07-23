@@ -84,9 +84,10 @@ input::-webkit-outer-spin-button {
   display: none;
 }
 .navbar .logo {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   align-items: center;
+  border-radius: 10px;
   gap: 30px;
 }
 .navbar .logo h4 {
@@ -96,7 +97,7 @@ input::-webkit-outer-spin-button {
   color: #dfdf07;
 }
 .navbar .logo img {
-  width: 120px;
+  width: 70px;
 }
 .navbar .links {
   display: flex;
@@ -261,6 +262,11 @@ footer div:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-logo img{
+  width: 100px;
+  height: 80px;
+  border-radius: 10px;
 }
 footer div img {
   width: 200px;

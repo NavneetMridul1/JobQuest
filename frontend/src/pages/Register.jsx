@@ -84,7 +84,8 @@ const Register = () => {
     if (isAuthenticated) {
       navigateTo("/");
     }
-  }, [dispatch, error, loading, isAuthenticated, message, navigateTo]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dispatch, error, loading, isAuthenticated, message]);
 
   return (
     <>

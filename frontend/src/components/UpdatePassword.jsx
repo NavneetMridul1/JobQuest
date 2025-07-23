@@ -35,12 +35,12 @@ const UpdatePassword = () => {
     if (error) {
       toast.error(error);
       dispatch(clearAllUpdateProfileErrors());
+    }
       if (isUpdated) {
         toast.success("Password Updated");
         dispatch(getUser());
         dispatch(clearAllUpdateProfileErrors());
       }
-    }
   }, [dispatch, loading, error, isUpdated]);
 
   return (
