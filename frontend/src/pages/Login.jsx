@@ -87,7 +87,7 @@ const Login = () => {
           </div>
 
           <button type="submit" disabled={loading || !role || !email || !password}>
-            {loading ? "Logging in..." : "Login"}
+            {loading ? "Login" : "Login"}
           </button>
 
           <Link to={"/register"}>Register Now</Link>
